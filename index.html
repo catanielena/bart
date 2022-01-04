@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Bard Architecture</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- header-logo -->
+        <div class="header__logo">
+            <ul class="logo__list" id="logo-list">
+                <li class="list__item" id="main-logo">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 118.49 37.68" alt="Bard College Logo">
+                            <path
+                                d="M40.1,12.4c-.07-3-2-3.62-3.59-3.62a9.9,9.9,0,0,0-2.29.28V17c2.46.28,6,.38,5.88-4.58m1.3,10.77c-.1-5.84-6.55-4.57-7.18-4.57v9.71c3.1,1,7.29.42,7.18-5.14m15.52,2.15c.14-1.16.11-3.38.11-3.2a12.39,12.39,0,0,0-3.31.28c-.95.24-2.68,1-2.39,3.76.17,1.66.91,2.47,2.28,2.47a3.43,3.43,0,0,0,3.31-3.31M90,22.15c0-4.12-1.09-6.44-3.56-6.58-2.67-.14-3.73,3-3.84,6.69S83.46,29,86.1,29c1.3,0,3.91-1.8,3.91-6.83m6.23,7.57c-1.41,0-6.09.32-6.09.32l-.25-2.93a5.28,5.28,0,0,1-4.36,3.21c-5.35.28-7.43-3.7-7.25-8.38.17-5.14,3.16-7.64,7.6-7.53A4.61,4.61,0,0,1,90,16.77V7.09L87.4,6.42V5.79l6.27-.53V28.17l2.57.91ZM77.44,15.15,76.17,18.6c-.81-1.38-1.47-2-2.35-2-2.26-.18-3.21,1.37-3.21,5v6.65l3.06.88v.63H64.59v-.63l2.29-.95V16.48l-2.39-.66v-.64l5.7-.6.35,2.36a5.33,5.33,0,0,1,3.13-2.36,5,5,0,0,1,3.77.57M63.36,29.65c-1.44,0-6.09.39-6.09.39L57,27.29a5.09,5.09,0,0,1-4.82,3c-2.36.07-4.5-1.27-4.75-3.77-.32-3.17,2.71-4.86,5.59-5.31a25.05,25.05,0,0,1,4-.29V18.63a2.81,2.81,0,0,0-2.92-2.92c-2.19,0-3.31,2.36-4,3.7l-1.9-2.54A8.89,8.89,0,0,1,54,14.51c.59,0,4.22-.24,5.77,1.59,1,1.16,1,2.32,1,3.94v8.13l2.57.81ZM39,17.54c3.7.32,7,2.43,6.8,6.34C45.55,28,41.79,30,37,29.82c-2.08-.1-4.89-.17-9.78-.14v-.63s3-1,3-1V9.3l-2.81-1V7.72c4,0,4.68,0,4.68,0,2.08,0,3.34-.17,5.38-.17,3.63,0,7,1.12,6.94,4.82C44.36,15.53,41.61,17,39,17.54"
+                                style="fill:#fff" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="list__item">
+                    Architeture
+                </li>
+            </ul>
+
+
+        </div>
+        <!-- /header-logo -->
+        <!-- header-nav -->
+
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="list__item active">
+                    <a href="#">news/events</a>
+                </li>
+                <li class="list__item">
+                    <a href="#">curriculum</a>
+                </li>
+                <li class="list__item">
+                    <a href="#">courses</a>
+                </li>
+                <li class="list__item">
+                    <a href="#">contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /header-nav -->
+    </header>
+    <!-- switch-button -->
+    <button type="button" class="switch-button">
+        <div class="switch-button__inner"></div>
+    </button>
+    <!-- /switch-button -->
+    <main>
+        <!-- section-lectures -->
+        <section class="section" id="lectures">
+            <!-- section-lectures--1 -->
+            <div class="lectures__item bg--green">
+                <div class="item__top">
+                    <!-- lecture-img -->
+                    <div class="item__img">
+                        <img src="https://arch.bard.edu/media/site/e4c6c2ee18-1612871872/bard-arch-placeholder-green-512x672.27964567678-q100.jpg"
+                            alt="public-lecture-series">
+                    </div>
+                    <!-- /lecture-img -->
+                    <!-- lecture-shape -->
+                    <div class="item__shape">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 354" preserveAspectRatio="none">
+                            <path
+                                d="M0,0V354H270V0ZM90.48,286.9a39.44,39.44,0,0,1-78.88,0V143.52a39.44,39.44,0,0,1,78.88,0Zm83.86,0a39.44,39.44,0,1,1-78.88,0V143.52a39.44,39.44,0,1,1,78.88,0Zm83.52,0a39.44,39.44,0,0,1-78.88,0V143.52a39.44,39.44,0,0,1,78.88,0Z"
+                                style="fill:#bbcaef" />
+                        </svg>
+                    </div>
+                    <!-- /lecture-shape -->
+                    <!-- lecture-text -->
+                    <div class="item__text">
+                        <div class="text__lecture-section">
+                            bard architeture
+                        </div>
+                        <h3 class="text--color--green text--left">future<br>com-<br><span
+                                class="text--padding-large">mons</span></h3>
+                        <h4 class="text__lecture-date text--round-bg active">
+                            <span>public lecture series <br> 2021-2022</span>
+                        </h4>
+                    </div>
+                    <!-- /lecture-text -->
+                    <div class="item__shape-overlay" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 354" preserveAspectRatio="none">
+                            <path
+                                d="M0,0V354H270V0ZM90.48,286.9a39.44,39.44,0,0,1-78.88,0V143.52a39.44,39.44,0,0,1,78.88,0Zm83.86,0a39.44,39.44,0,1,1-78.88,0V143.52a39.44,39.44,0,1,1,78.88,0Zm83.52,0a39.44,39.44,0,0,1-78.88,0V143.52a39.44,39.44,0,0,1,78.88,0Z">
+                        </svg>
+                    </div>
+                </div>
+                <div class="item__bottom">
+                    <p class="bottom__text">Stay tuned for the series launch!</p>
+                    <a href="#" class="btn text--round-bg text--color--green">more...</a>
+                </div>
+
+            </div>
+            <!-- /section-lectures--1 -->
+            <!-- section-lectures--2 -->
+            <div class="lectures__item bg--green">
+                <div class="item__top">
+                    <!-- lecture-img -->
+                    <div class="item__img">
+                        <img src="https://arch.bard.edu/media/site/e4c6c2ee18-1612871872/bard-arch-placeholder-green-512x672.27964567678-q100.jpg"
+                            alt="public-lecture-series">
+                    </div>
+                    <!-- /lecture-img -->
+                    <!-- lecture-shape -->
+                    <div class="item__shape item__shape--fill--green">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 365" preserveAspectRatio="none">
+                            <polygon points="39.41 337.34 29.37 365 254.07 365 243.41 337.34 39.41 337.34" />
+                            <path
+                                d="M0,0V365H6.77V275.49h54.9L57.75,286h166c-.35-.94-.71-1.87-1.06-2.8l-135-51.84V189.46A189,189,0,0,1,6.77,150.61V148.7h0q0-54.69,0-109.38a10.35,10.35,0,0,1,.42-2.79V23h69V148.7H92.07V62c0-5.79-.18-11.58,0-17.36.56-18.88,11.62-21.9,30.07-21.63,27.06.39,54.13,0,81.19,0a28.24,28.24,0,0,1,3.33.17c4.71.6,8.33,2.15,11,4.47s3.75,4.71,3.75,7.37a10.26,10.26,0,0,0,.7,4.06c1.86,4.42,8.54,7.74,16.31,8,4.29.12,8.61,0,12.91.08a28.31,28.31,0,0,1,3.82.22c4.87.72,8.08,4.54,8.08,11.44,0,29.93,0,54.84,0,84.77a4.52,4.52,0,0,1-.44,1.92c-.62,1.32-.52.52-3.34,3.2-22,20.86-69.74,42.09-111.81,44.87q16.13,4.83,31.3,10.49l84.35,31.51v63.21l-.07,0V365H270V0Z" />
+                            <path
+                                d="M172.68,51.16A64.85,64.85,0,0,0,107.83,116c0,2.6.13,25.07.13,32.68H228.7a64.85,64.85,0,0,0-56-97.54Z" />
+                        </svg>
+                    </div>
+                    <!-- /lecture-shape -->
+                    <!-- lecture-text -->
+                    <div class="item__text">
+                        <div class="text__lecture-section">
+                            bard architeture
+                        </div>
+                        <h3 class="text--color--grey text--center">Struggle<br>Rapture<br>Joy</h3>
+                        <h4 class="text__lecture-date">
+                            <span class="text--round-bg">public lecture series</span> <br>
+                            <span class="text--round-bg">2021-2022</span>
+                        </h4>
+                    </div>
+                    <!-- /lecture-text -->
+                    <div class="item__shape-overlay" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 365" preserveAspectRatio="none">
+                            <polygon points="39.41 337.34 29.37 365 254.07 365 243.41 337.34 39.41 337.34" />
+                            <path
+                                d="M0,0V365H6.77V275.49h54.9L57.75,286h166c-.35-.94-.71-1.87-1.06-2.8l-135-51.84V189.46A189,189,0,0,1,6.77,150.61V148.7h0q0-54.69,0-109.38a10.35,10.35,0,0,1,.42-2.79V23h69V148.7H92.07V62c0-5.79-.18-11.58,0-17.36.56-18.88,11.62-21.9,30.07-21.63,27.06.39,54.13,0,81.19,0a28.24,28.24,0,0,1,3.33.17c4.71.6,8.33,2.15,11,4.47s3.75,4.71,3.75,7.37a10.26,10.26,0,0,0,.7,4.06c1.86,4.42,8.54,7.74,16.31,8,4.29.12,8.61,0,12.91.08a28.31,28.31,0,0,1,3.82.22c4.87.72,8.08,4.54,8.08,11.44,0,29.93,0,54.84,0,84.77a4.52,4.52,0,0,1-.44,1.92c-.62,1.32-.52.52-3.34,3.2-22,20.86-69.74,42.09-111.81,44.87q16.13,4.83,31.3,10.49l84.35,31.51v63.21l-.07,0V365H270V0Z" />
+                            <path
+                                d="M172.68,51.16A64.85,64.85,0,0,0,107.83,116c0,2.6.13,25.07.13,32.68H228.7a64.85,64.85,0,0,0-56-97.54Z" />
+                        </svg>
+
+                    </div>
+                </div>
+                <div class="item__bottom">
+                    <p class="bottom__text">
+                        Struggle/Rupture/Joy describes the collisions, unravelin and ungrounding we are living through
+                        today. The convergent struggles expose as much the structural violence and injustices that
+                        brought us to the present as they open new forms of solidarity, communal care and revolutionary
+                        love. Rupture, the tenacious performance of living otherwise amidst the terror of a world
+                        collapsing; joy, a collective poetics, a charged glimmer that breaks through the violence of
+                        everyday oppression—the realization that nothing has to be the way it is.
+                    </p>
+
+                    <a href="#" class="btn text--round-bg text--color--green">more...</a>
+                </div>
+
+            </div>
+            <!-- /section-lectures--2 -->
+            <!-- section-lectures--3 -->
+            <div class="lectures__item bg--grey bg--blur-line">
+                <div class="item__top">
+                    <!-- lecture-img -->
+                    <div class="item__img">
+                        <img src="https://arch.bard.edu/media/site/607cc4b1cb-1612871708/spatial-imaginary-cohabitation-strategies-1024x1344.5592913536-q100.jpg"
+                            alt="cohabitation-strategies">
+                    </div>
+                    <!-- /lecture-img -->
+                    <!-- lecture-shape -->
+                    <div class="item__shape item__shape--fill--grey">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 365" preserveAspectRatio="none">
+                            <path
+                                d="M0,0V365H270V0ZM260.7,239.42a78,78,0,0,1-14.21,22.23c-10.16,10.92-27.47,10.69-37.78,1.69-3.76-3.29-17-18.69-27.94-20.93-14.65-3-27.54-9.68-39.09-19-8.31-6.73-12.41-21-9-31,2.7-7.93,9.28-11.35,16.49-13.93s14.44-2.23,21.76-.29a20.39,20.39,0,0,0,7.46.51c3-.36,3.49-1.8,2.11-4.43-.54-1-1.15-2-1.67-3.05-3.53-7-.66-14.28,6.89-16.68,3.28-1,6.82-1.26,10.22-1.94a13.84,13.84,0,0,0,3.88-1.23c1.89-1,2.25-2.68,1-4.52-.65-1-1.42-1.84-2-2.81-5.25-8.31-4.62-14.53,2.19-21.64,5.89-6.17,7.35-16.33,3.4-23.76C202,94,198.67,92,193.75,93.45c-4.68,1.38-9.07,3.76-13.55,5.79s-9,4.67-13.75,6.29c-9,3.09-18.12,2-26.91-1.29-5.8-2.18-11.4-4.89-17.17-7.18-2-.78-4.54-2.19-6.37-1.32,2.31,2.46,4.15,5.47,6.93,7.38,22.71,15.58,46.65,21,44.27,40.2-.92,7.48-6.57,10.2-13.18,6.51a97.59,97.59,0,0,1-9.68-6.34c-16.47-8.57-47.25-24.94-29.6,43.95,16.22,37.84,36.93,51.06,36.93,67,0,29-31.52,52.49-70.4,52.49-.78,0-1.63,0-2.55-.05-7.57,14.74-23.63,24-39.84,21.92C17.1,326,2.09,309.41,2.2,288.24a39.36,39.36,0,0,1,14.22-30.82c17-14.71,36.16-27.21,51.1-44C89.26,189,80.76,162,67.21,151.08c-17.83-14.32-34.74-29.74-51.95-44.8C2.84,95.4-1.26,76.92,4.93,61.42c6.45-16.14,21.67-26,39.38-25.5,11.25.34,20.54,4.92,28.22,12.95v-.14c.19.22.35.46.52.69l.06,0Q86.52,64,99.9,78.46c1.51-5.46,3.73-10.58,7.76-14.85C113,57.9,121.3,58.2,126,64.37c2.23,2.91,4.09,6.1,6.24,9.08,3.3,4.58,8,6.17,13.34,5.25,7.46-1.28,14.81-3.25,22.3-4.24a196,196,0,0,1,23.83-1.77c6.17-.07,11.79-1.79,17.56-3.43a60.76,60.76,0,0,1,12-2.42c11.46-.87,19.6,9.3,16.45,20.38-1.37,4.85-3.56,9.53-2.15,14.76.52,1.93,1,3.9,1.65,5.75,3.16,8.31,2.06,16.21-2.43,23.64-4,6.62-7.39,13.41-9.29,21-1.76,7-5.24,12.91-12.18,16.47-2.26,1.16-4.66,4-5.09,6.46-2,11.31-7.52,20.84-13.57,30.3a29,29,0,0,0-4.22,16.31c0,1.71,1.12,4.14,2.47,4.87,1.09.59,3.86-.35,4.92-1.5,6.33-6.86,26.13-29.44,31.36-33.63S239.9,183,246.64,181c10.2-3,18.31,1.68,20.13,12.14C269.54,209.16,267.23,224.55,260.7,239.42Z" />
+                        </svg>
+                    </div>
+                    <!-- /lecture-shape -->
+                    <!-- lecture-text -->
+                    <div class="item__text">
+                        <div class="text__lecture-section">
+                            cohabitation strategies / <br> urban front
+                        </div>
+                        <h3 class="text--color--light-blue text--left">How to Begin Again: Urgent Propositions for a New
+                            Urban Practic</h3>
+                        <h4 class="text__lecture-date">
+                            <span class="text--round-bg">public lecture series</span> <br>
+                            <span class="text--round-bg">2021-2022</span>
+                        </h4>
+                    </div>
+                    <!-- /lecture-text -->
+                    <div class="item__shape-overlay" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 365" preserveAspectRatio="none">
+                            <polygon points="39.41 337.34 29.37 365 254.07 365 243.41 337.34 39.41 337.34" />
+                            <path
+                                d="M0,0V365H6.77V275.49h54.9L57.75,286h166c-.35-.94-.71-1.87-1.06-2.8l-135-51.84V189.46A189,189,0,0,1,6.77,150.61V148.7h0q0-54.69,0-109.38a10.35,10.35,0,0,1,.42-2.79V23h69V148.7H92.07V62c0-5.79-.18-11.58,0-17.36.56-18.88,11.62-21.9,30.07-21.63,27.06.39,54.13,0,81.19,0a28.24,28.24,0,0,1,3.33.17c4.71.6,8.33,2.15,11,4.47s3.75,4.71,3.75,7.37a10.26,10.26,0,0,0,.7,4.06c1.86,4.42,8.54,7.74,16.31,8,4.29.12,8.61,0,12.91.08a28.31,28.31,0,0,1,3.82.22c4.87.72,8.08,4.54,8.08,11.44,0,29.93,0,54.84,0,84.77a4.52,4.52,0,0,1-.44,1.92c-.62,1.32-.52.52-3.34,3.2-22,20.86-69.74,42.09-111.81,44.87q16.13,4.83,31.3,10.49l84.35,31.51v63.21l-.07,0V365H270V0Z" />
+                            <path
+                                d="M172.68,51.16A64.85,64.85,0,0,0,107.83,116c0,2.6.13,25.07.13,32.68H228.7a64.85,64.85,0,0,0-56-97.54Z" />
+                        </svg>
+
+                    </div>
+                </div>
+                <div class="item__bottom">
+                    <p class="bottom__text">
+                        An Atlas for Housing Justice aims to compose a structural and historical portrait of the history
+                        of public housing in the US. The exhibition represents a collective research project—an
+                        ‘atlas’—that gathers together social, political, spatial and architectural knowledge with an eye
+                        to read parallel relations and associations across various historical strands—housing-based
+                        social movements, architectural precedents, housing and governmental policies, major political
+                        uprisings and grassroots organizations, popular cultural depictions of housing and the less
+                        visible systemic forms of violence. The aim of this is to open different ways by which
+                        architecture can meaningfully engage the larger movement for housing justice.
+                    </p>
+
+
+                    <a href="#" class="btn text--round-bg bg--light-blue text--color--green">more...</a>
+                </div>
+
+            </div>
+            <!-- /section-lectures--3 -->
+            <!-- section-lectures--4 -->
+            <div class="lectures__item bg--green">
+                <div class="item__top">
+                    <!-- lecture-img -->
+                    <div class="item__img">
+                        <img src="https://arch.bard.edu/media/site/d29c61af8a-1616185768/move-bombing-philly-1985-512x672.27964567678-q100.jpg"
+                            alt="move-bombing-philly-1985">
+                    </div>
+                    <!-- /lecture-img -->
+                    <!-- lecture-shape -->
+                    <div class="item__shape item__shape--fill--green">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 354" preserveAspectRatio="none">
+                            <path d="M70.76,75.26v29.16a38.2,38.2,0,0,1,30-14.58A38.17,38.17,0,0,1,70.76,75.26Z" />
+                            <path d="M70.76,354h.07c0-1.5,0-3-.07-4.5Z" />
+                            <path
+                                d="M44.31,89.58l.18,1a38.32,38.32,0,0,1,25.56,16.68V72.87A38.32,38.32,0,0,1,44.31,89.58Z" />
+                            <path d="M70.05,288.84l-1.17-.3q.66,10.31,1.17,20.44Z" />
+                            <path d="M70.76,180.92a38.17,38.17,0,0,1,30-14.58,38.17,38.17,0,0,1-30-14.58Z" />
+                            <path d="M100.8,89.84a38.23,38.23,0,0,1,33.49,19.78V70.07A38.22,38.22,0,0,1,100.8,89.84Z" />
+                            <path
+                                d="M134.29,186.11V146.57a38.24,38.24,0,0,1-33.49,19.77A38.24,38.24,0,0,1,134.29,186.11Z" />
+                            <path
+                                d="M63.62,233.3a38.05,38.05,0,0,1-25.52,9.77,38.16,38.16,0,0,1,27.52,11.69Q64.71,244.11,63.62,233.3Z" />
+                            <path
+                                d="M70.05,183.79V149.36A38.47,38.47,0,0,1,55.8,162.24c.44,3.14.87,6.26,1.29,9.38A38.52,38.52,0,0,1,70.05,183.79Z" />
+                            <path d="M6.52,183.26A38.2,38.2,0,0,1,38.1,166.58,38.2,38.2,0,0,1,6.52,149.89Z" />
+                            <path
+                                d="M55.13,162.58a38,38,0,0,1-17,4,38,38,0,0,1,18.21,4.61C55.93,168.32,55.53,165.46,55.13,162.58Z" />
+                            <path
+                                d="M192.81,233.3a38.05,38.05,0,0,1-25.52,9.77,38.14,38.14,0,0,1,27.52,11.69Q193.9,244.11,192.81,233.3Z" />
+                            <path
+                                d="M61.56,345.53,70,336.66l.08.12V325l-.15-3.8q-.66-16.2-1.74-32.87c-10.69-3-18.86-8.58-21.38-20.2l-11.31-4c-.89-1.46-2-3.28-3.22-5.26H27.37c-.79-2.79-2.25-5.6-2.27-8.42a22.75,22.75,0,0,0-.51-4.9,38.07,38.07,0,0,1,13.51-2.46A38.16,38.16,0,0,1,20.91,239,16.23,16.23,0,0,0,17,236.34c-3-1.5-4.74-5.17-7.25-7.66a17.63,17.63,0,0,1-3.26-4.55V354h43l5.79-9Z" />
+                            <path
+                                d="M43.61,89.68a38.53,38.53,0,0,1-5.51.4,38.93,38.93,0,0,1,5.65.42C43.71,90.23,43.66,90,43.61,89.68Z" />
+                            <path
+                                d="M70.05,260.29V225.86a39,39,0,0,1-5.77,6.85q1.14,11.53,2.12,22.89A38.74,38.74,0,0,1,70.05,260.29Z"
+                                style="fill:#fff" />
+                            <path d="M38.1,90.08A38.2,38.2,0,0,1,6.52,73.4v33.36A38.2,38.2,0,0,1,38.1,90.08Z" />
+                            <path
+                                d="M123.54,193.81c-1.33-5.82-1.33-5.82-10.2-14.11-3.52,6.45-3.78,11.78-.7,21.33l-11.24,7.86L97.53,218c6.29,4.62,6.52,5.78,3.42,13.51-1.48,3.69-2.84,7.43-4.18,11.07a38.19,38.19,0,0,1-26-14.36v96.88c.37,9.73.59,19.33.75,28.86h62.78V206.48C132,201.3,128.73,196.77,123.54,193.81ZM95.89,245c-10.9-.22-17.4,6.4-24.53,11.69a38.12,38.12,0,0,1,25.24-13.6C96.36,243.71,96.12,244.35,95.89,245Z" />
+                            <path d="M200,75.26v29.16a38.21,38.21,0,0,1,30-14.58A38.18,38.18,0,0,1,200,75.26Z" />
+                            <path
+                                d="M252.73,193.81c-1.33-5.82-1.33-5.82-10.2-14.11-3.52,6.45-3.78,11.78-.7,21.33l-11.24,7.86L226.72,218c6.29,4.62,6.52,5.78,3.42,13.51-1.48,3.69-2.84,7.43-4.18,11.07a38.19,38.19,0,0,1-26-14.36v96.88c.37,9.73.59,19.33.75,28.86h62.78V206.48C261.23,201.3,257.92,196.77,252.73,193.81ZM225.08,245c-10.9-.22-17.4,6.4-24.53,11.69a38.12,38.12,0,0,1,25.24-13.6C225.55,243.71,225.32,244.35,225.08,245Z" />
+                            <path d="M230,89.84a38.22,38.22,0,0,1,33.49,19.78V70.07A38.21,38.21,0,0,1,230,89.84Z" />
+                            <path d="M200,354H200c0-1.5,0-3-.07-4.5Z" />
+                            <path
+                                d="M190.75,345.53l8.41-8.87.08.12V325c-.05-1.26-.09-2.53-.15-3.8q-.66-16.2-1.74-32.87c-10.69-3-18.86-8.58-21.38-20.2l-11.31-4c-.89-1.46-2-3.28-3.22-5.26h-4.88c-.79-2.79-2.25-5.6-2.27-8.42a22.75,22.75,0,0,0-.51-4.9,38.11,38.11,0,0,1,13.51-2.46A38.16,38.16,0,0,1,150.1,239a16.23,16.23,0,0,0-3.88-2.66c-2.95-1.5-4.74-5.17-7.25-7.66a17.63,17.63,0,0,1-3.26-4.55V354h43l5.79-9Z" />
+                            <path
+                                d="M0,0V354H5.81V67.44c0-7.34,1.69-13.61,5-18.62a28.23,28.23,0,0,1,11.09-9.58,40.44,40.44,0,0,1,16.09-4h.5c7.34,0,13.61,1.7,18.62,5a28.33,28.33,0,0,1,9.59,11.09A39.7,39.7,0,0,1,70.3,62.76a30.74,30.74,0,0,1,4.79-13.94,28.23,28.23,0,0,1,11.09-9.58,40.47,40.47,0,0,1,16.1-4h.5c7.34,0,13.6,1.7,18.62,5A28.23,28.23,0,0,1,131,51.34a40.56,40.56,0,0,1,4,16.1c0-7.34,1.7-13.61,5-18.62a28.23,28.23,0,0,1,11.09-9.58,40.44,40.44,0,0,1,16.09-4h.5c7.34,0,13.61,1.7,18.62,5a28.25,28.25,0,0,1,9.59,11.09,39.7,39.7,0,0,1,3.56,11.42,30.74,30.74,0,0,1,4.79-13.94,28.23,28.23,0,0,1,11.09-9.58,40.47,40.47,0,0,1,16.1-4h.5c7.34,0,13.6,1.7,18.62,5a28.23,28.23,0,0,1,9.58,11.09,40.36,40.36,0,0,1,4,16.1V354H270V0Z" />
+                            <path
+                                d="M173.5,89.58l.18,1a38.32,38.32,0,0,1,25.56,16.68V72.87A38.32,38.32,0,0,1,173.5,89.58Z" />
+                            <path d="M200,180.92a38.18,38.18,0,0,1,30-14.58,38.18,38.18,0,0,1-30-14.58Z" />
+                            <path
+                                d="M263.48,186.11V146.57A38.23,38.23,0,0,1,230,166.34,38.23,38.23,0,0,1,263.48,186.11Z" />
+                            <path d="M167.29,90.08A38.2,38.2,0,0,1,135.71,73.4v33.36A38.2,38.2,0,0,1,167.29,90.08Z" />
+                            <path d="M135.71,183.26a38.2,38.2,0,0,1,31.58-16.68,38.2,38.2,0,0,1-31.58-16.69Z" />
+                            <path d="M199.24,288.84l-1.17-.3q.66,10.31,1.17,20.44Z" />
+                            <path
+                                d="M184.32,162.58a38,38,0,0,1-17,4,38,38,0,0,1,18.21,4.61C185.12,168.32,184.72,165.46,184.32,162.58Z" />
+                            <path
+                                d="M172.8,89.68a38.42,38.42,0,0,1-5.51.4,38.83,38.83,0,0,1,5.65.42C172.9,90.23,172.85,90,172.8,89.68Z" />
+                            <path
+                                d="M199.24,260.29V225.86a38.59,38.59,0,0,1-5.77,6.85q1.14,11.53,2.12,22.89A37.76,37.76,0,0,1,199.24,260.29Z" />
+                            <path
+                                d="M199.24,183.79V149.36A38.47,38.47,0,0,1,185,162.24c.44,3.14.87,6.26,1.29,9.38A38.52,38.52,0,0,1,199.24,183.79Z" />
+                        </svg>
+                    </div>
+                    <!-- /lecture-shape -->
+                    <!-- lecture-text -->
+                    <div class="item__text">
+                        <div class="text__lecture-section">
+                            bard architeture
+                        </div>
+                        <h3 class="text--color--grey text--center">ARCH 321: Housing and Collective Care: Constituencie
+                        </h3>
+                        <h4 class="text__lecture-date">
+                            <span class="text--round-bg">Student Exhibition</span> <br>
+                            <span class="text--round-bg">sun,</span>
+                            <span class="text--round-bg">mar 21 2021</span> <br>
+                            <span class="text--round-bg">12.00</span>
+                            <span class="text--round-bg">pm</span>
+                        </h4>
+                    </div>
+                    <!-- /lecture-text -->
+                    <div class="item__shape-overlay" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 354" preserveAspectRatio="none">
+                            <path d="M70.76,75.26v29.16a38.2,38.2,0,0,1,30-14.58A38.17,38.17,0,0,1,70.76,75.26Z" />
+                            <path d="M70.76,354h.07c0-1.5,0-3-.07-4.5Z" />
+                            <path
+                                d="M44.31,89.58l.18,1a38.32,38.32,0,0,1,25.56,16.68V72.87A38.32,38.32,0,0,1,44.31,89.58Z" />
+                            <path d="M70.05,288.84l-1.17-.3q.66,10.31,1.17,20.44Z" />
+                            <path d="M70.76,180.92a38.17,38.17,0,0,1,30-14.58,38.17,38.17,0,0,1-30-14.58Z" />
+                            <path d="M100.8,89.84a38.23,38.23,0,0,1,33.49,19.78V70.07A38.22,38.22,0,0,1,100.8,89.84Z" />
+                            <path
+                                d="M134.29,186.11V146.57a38.24,38.24,0,0,1-33.49,19.77A38.24,38.24,0,0,1,134.29,186.11Z" />
+                            <path
+                                d="M63.62,233.3a38.05,38.05,0,0,1-25.52,9.77,38.16,38.16,0,0,1,27.52,11.69Q64.71,244.11,63.62,233.3Z" />
+                            <path
+                                d="M70.05,183.79V149.36A38.47,38.47,0,0,1,55.8,162.24c.44,3.14.87,6.26,1.29,9.38A38.52,38.52,0,0,1,70.05,183.79Z" />
+                            <path d="M6.52,183.26A38.2,38.2,0,0,1,38.1,166.58,38.2,38.2,0,0,1,6.52,149.89Z" />
+                            <path
+                                d="M55.13,162.58a38,38,0,0,1-17,4,38,38,0,0,1,18.21,4.61C55.93,168.32,55.53,165.46,55.13,162.58Z" />
+                            <path
+                                d="M192.81,233.3a38.05,38.05,0,0,1-25.52,9.77,38.14,38.14,0,0,1,27.52,11.69Q193.9,244.11,192.81,233.3Z" />
+                            <path
+                                d="M61.56,345.53,70,336.66l.08.12V325l-.15-3.8q-.66-16.2-1.74-32.87c-10.69-3-18.86-8.58-21.38-20.2l-11.31-4c-.89-1.46-2-3.28-3.22-5.26H27.37c-.79-2.79-2.25-5.6-2.27-8.42a22.75,22.75,0,0,0-.51-4.9,38.07,38.07,0,0,1,13.51-2.46A38.16,38.16,0,0,1,20.91,239,16.23,16.23,0,0,0,17,236.34c-3-1.5-4.74-5.17-7.25-7.66a17.63,17.63,0,0,1-3.26-4.55V354h43l5.79-9Z" />
+                            <path
+                                d="M43.61,89.68a38.53,38.53,0,0,1-5.51.4,38.93,38.93,0,0,1,5.65.42C43.71,90.23,43.66,90,43.61,89.68Z" />
+                            <path
+                                d="M70.05,260.29V225.86a39,39,0,0,1-5.77,6.85q1.14,11.53,2.12,22.89A38.74,38.74,0,0,1,70.05,260.29Z"
+                                style="fill:#fff" />
+                            <path d="M38.1,90.08A38.2,38.2,0,0,1,6.52,73.4v33.36A38.2,38.2,0,0,1,38.1,90.08Z" />
+                            <path
+                                d="M123.54,193.81c-1.33-5.82-1.33-5.82-10.2-14.11-3.52,6.45-3.78,11.78-.7,21.33l-11.24,7.86L97.53,218c6.29,4.62,6.52,5.78,3.42,13.51-1.48,3.69-2.84,7.43-4.18,11.07a38.19,38.19,0,0,1-26-14.36v96.88c.37,9.73.59,19.33.75,28.86h62.78V206.48C132,201.3,128.73,196.77,123.54,193.81ZM95.89,245c-10.9-.22-17.4,6.4-24.53,11.69a38.12,38.12,0,0,1,25.24-13.6C96.36,243.71,96.12,244.35,95.89,245Z" />
+                            <path d="M200,75.26v29.16a38.21,38.21,0,0,1,30-14.58A38.18,38.18,0,0,1,200,75.26Z" />
+                            <path
+                                d="M252.73,193.81c-1.33-5.82-1.33-5.82-10.2-14.11-3.52,6.45-3.78,11.78-.7,21.33l-11.24,7.86L226.72,218c6.29,4.62,6.52,5.78,3.42,13.51-1.48,3.69-2.84,7.43-4.18,11.07a38.19,38.19,0,0,1-26-14.36v96.88c.37,9.73.59,19.33.75,28.86h62.78V206.48C261.23,201.3,257.92,196.77,252.73,193.81ZM225.08,245c-10.9-.22-17.4,6.4-24.53,11.69a38.12,38.12,0,0,1,25.24-13.6C225.55,243.71,225.32,244.35,225.08,245Z" />
+                            <path d="M230,89.84a38.22,38.22,0,0,1,33.49,19.78V70.07A38.21,38.21,0,0,1,230,89.84Z" />
+                            <path d="M200,354H200c0-1.5,0-3-.07-4.5Z" />
+                            <path
+                                d="M190.75,345.53l8.41-8.87.08.12V325c-.05-1.26-.09-2.53-.15-3.8q-.66-16.2-1.74-32.87c-10.69-3-18.86-8.58-21.38-20.2l-11.31-4c-.89-1.46-2-3.28-3.22-5.26h-4.88c-.79-2.79-2.25-5.6-2.27-8.42a22.75,22.75,0,0,0-.51-4.9,38.11,38.11,0,0,1,13.51-2.46A38.16,38.16,0,0,1,150.1,239a16.23,16.23,0,0,0-3.88-2.66c-2.95-1.5-4.74-5.17-7.25-7.66a17.63,17.63,0,0,1-3.26-4.55V354h43l5.79-9Z" />
+                            <path
+                                d="M0,0V354H5.81V67.44c0-7.34,1.69-13.61,5-18.62a28.23,28.23,0,0,1,11.09-9.58,40.44,40.44,0,0,1,16.09-4h.5c7.34,0,13.61,1.7,18.62,5a28.33,28.33,0,0,1,9.59,11.09A39.7,39.7,0,0,1,70.3,62.76a30.74,30.74,0,0,1,4.79-13.94,28.23,28.23,0,0,1,11.09-9.58,40.47,40.47,0,0,1,16.1-4h.5c7.34,0,13.6,1.7,18.62,5A28.23,28.23,0,0,1,131,51.34a40.56,40.56,0,0,1,4,16.1c0-7.34,1.7-13.61,5-18.62a28.23,28.23,0,0,1,11.09-9.58,40.44,40.44,0,0,1,16.09-4h.5c7.34,0,13.61,1.7,18.62,5a28.25,28.25,0,0,1,9.59,11.09,39.7,39.7,0,0,1,3.56,11.42,30.74,30.74,0,0,1,4.79-13.94,28.23,28.23,0,0,1,11.09-9.58,40.47,40.47,0,0,1,16.1-4h.5c7.34,0,13.6,1.7,18.62,5a28.23,28.23,0,0,1,9.58,11.09,40.36,40.36,0,0,1,4,16.1V354H270V0Z" />
+                            <path
+                                d="M173.5,89.58l.18,1a38.32,38.32,0,0,1,25.56,16.68V72.87A38.32,38.32,0,0,1,173.5,89.58Z" />
+                            <path d="M200,180.92a38.18,38.18,0,0,1,30-14.58,38.18,38.18,0,0,1-30-14.58Z" />
+                            <path
+                                d="M263.48,186.11V146.57A38.23,38.23,0,0,1,230,166.34,38.23,38.23,0,0,1,263.48,186.11Z" />
+                            <path d="M167.29,90.08A38.2,38.2,0,0,1,135.71,73.4v33.36A38.2,38.2,0,0,1,167.29,90.08Z" />
+                            <path d="M135.71,183.26a38.2,38.2,0,0,1,31.58-16.68,38.2,38.2,0,0,1-31.58-16.69Z" />
+                            <path d="M199.24,288.84l-1.17-.3q.66,10.31,1.17,20.44Z" />
+                            <path
+                                d="M184.32,162.58a38,38,0,0,1-17,4,38,38,0,0,1,18.21,4.61C185.12,168.32,184.72,165.46,184.32,162.58Z" />
+                            <path
+                                d="M172.8,89.68a38.42,38.42,0,0,1-5.51.4,38.83,38.83,0,0,1,5.65.42C172.9,90.23,172.85,90,172.8,89.68Z" />
+                            <path
+                                d="M199.24,260.29V225.86a38.59,38.59,0,0,1-5.77,6.85q1.14,11.53,2.12,22.89A37.76,37.76,0,0,1,199.24,260.29Z" />
+                            <path
+                                d="M199.24,183.79V149.36A38.47,38.47,0,0,1,185,162.24c.44,3.14.87,6.26,1.29,9.38A38.52,38.52,0,0,1,199.24,183.79Z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="item__bottom">
+                    <p class="bottom__text">
+                        An Atlas for Housing Justice aims to compose a structural andhistorical portrait of the history
+                        of public housing in the US. The exhibition represents a collective research project—an
+                        ‘atlas’—that gathers together social, political, spatial and architectural knowledge with an eye
+                        to read parallel relations and associations across various historical strands—housing-based
+                        social movements, architectural precedents, housing and governmental policies, major political
+                        uprisings and grassroots organizations, popular cultural depictions of housing and the less
+                        visible systemic forms of violence. The aim of this is to open different ways by which
+                        architecture can meaningfully engage the larger movement for housing justice.
+                    </p>
+
+                    <a href="#" class="btn text--round-bg text--color--green">more...</a>
+                </div>
+
+            </div>
+            <!-- /section-lectures--4 -->
+
+
+
+
+        </section>
+        <!-- /section-lectures -->
+
+        <!-- section-manifest -->
+        <section class="section" id="manifesto">
+            <div class="section__text">
+                <div class="text__row">
+                    <p>
+                        Architecture has always been a discourse of race, gender and ability, of climate, colonization
+                        and capitalism.
+                    </p>
+                </div>
+                <div class="text__row">
+                    <p>
+                        Architecture has always been a discourse of race, gender and ability, of climate, colonization
+                        and capitalism.
+                    </p>
+                </div>
+            </div>
+            <div class="section__shape-overlay">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 265.21" preserveAspectRatio="none"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M271.13,221.14c-29.86-3.69-60.66-6.39-92-8.41-28.44-1.83-57.1-3.23-86.05-4-5.87-.15-11.74-.45-17.49-.85-23.19-1.6-39.57-7.63-41.42-15.19a12.5,12.5,0,0,1-.25-3.28c.08-4,3.83-7.68,11.82-10.86,1.22-.48,2.37-1,3.46-1.5.2-.09,0-.29-.06-.46-1.89-.67-4.46-.4-6.73-.41q-21.21,0-42.4,0v89H440.36c-15.91-9.75-38-18.18-65.7-25.41C343.53,231.69,308.51,225.75,271.13,221.14Z" />
+                    <path
+                        d="M281.94,10.34c133.87,0,246.82,55.8,282.2,132.11,10.15-21.88,26.66-42.08,48.23-59.75.53.31,1,.63,1.52.92a6,6,0,0,0,3.72-.4q2.52-1.2,4.89-2.43c7.73-4,15.51-8,23.13-12a32.18,32.18,0,0,1,11.15-3.06c6.55-.81,12.81-1.79,19.75-2.35,5.72-.46,11-1.54,16.33-2.41,3.88-.63,8-1.21,11.31-2.07s5.78-2.06,8.67-3.09a93.58,93.58,0,0,1,11-3.27,39.9,39.9,0,0,0,3.87-1c7.56-2.56,15.06-5.15,22.6-7.73,1.6-.54,3.32-1.05,5-1.59,11.92-3.9,24.07-7.73,35.69-11.72,10.73-3.69,22.33-7.09,33.33-10.68a87.06,87.06,0,0,1,19.85-3.55,59.22,59.22,0,0,0,6.42-.84c8.36-1.62,17.28-2.86,26.21-4.09,62.49,4,119.17,20.22,163.79,44.74a24.8,24.8,0,0,0-2,3.17c-.86,1.68-1.44,3.37-2.18,5.06-.84,1.91,0,3.65,5.46,4.8,5.68,1.18,8.77,2.87,10.37,4.91,1.85,2.37,4.56,4.66,5.61,7.12.94,2.2,3.28,4.35,5,6.52.66.83,1.7,1.64,2,2.48.45,1.3,1.89,2.43,3.62,3.61a45.87,45.87,0,0,1,6.12,5.4,1.54,1.54,0,0,1,.35,1.27c.14,4.27.1,8.54.41,12.81.17,2.28-1.87,4.43-3.07,6.63a77.79,77.79,0,0,1-5,7.83c-1.41,2-3.18,3.92-4.75,5.88-.42.51-1,1-1,1.56-.2,4.08-4.42,8-4.65,12.06a5,5,0,0,1-1.29,2.53c-2.83,3.6-5.78,7.21-8.72,10.85a1.17,1.17,0,0,0,.49.18c7.33.54,10.66,2.22,13.4,4.29a31.1,31.1,0,0,1,9,10.12c2.08,3.89,5.16,7.72,7.75,11.58a6.39,6.39,0,0,1,1.27,2.52,3.62,3.62,0,0,0,1.35,2.09V0H0V141.89C35.68,65.87,148.39,10.34,281.94,10.34Z" />
+                    <path d="M552.12,265.21h24a144.58,144.58,0,0,1-12-21A146.6,146.6,0,0,1,552.12,265.21Z" />
+                </svg>
+
+            </div>
+        </section>
+        <!-- /section-manifest -->
+
+        <!-- section-curriculum -->
+        <section class="section" id="curriculum">
+            <div class="curriculum__row row--padding--bg--black" id="curriculum-description">
+                <p class="p--alpina">
+                    Architecture at Bard builds its pedagogy around a concern for the present, an acute attention to
+                    structural inequalities and a longing for other futures. The curriculum frames architecture as both
+                    an art form and an argument—a situated aesthetic spatial practice whose propositions aim to
+                    reconfigure our collective present toward more just futures. The program builds across architectural
+                    cultures, design techniques, histories and propositions to equip students with an expansive and
+                    experimental approach toward the field that simultaneously opens paths for engaging other
+                    disciplines spatially. The program teaches students that architecture is a site for transformative,
+                    insurgent spatial and material possibilities with which to imagine worlds otherwise.
+                </p>
+            </div>
+            <div class="curriculum__row" id="curriculum-diagram">
+                <!-- curriculum__row -->
+                <div class="row__col" id="col-studio-seminars">
+                    <div class="col__item text--uppercase">
+                        Design <br> Studio <br> Seminars
+                        <div class="category-box" id="dss">
+                            dss
+                        </div>
+                    </div>
+                    <div class="col__item  text--color--light-blue">
+                        Open <br> Practives <br> Workshop
+                        <div class="category-box" id="opw">
+                            opw
+                        </div>
+                    </div>
+                </div>
+                <!-- /curriculum__row -->
+
+                <!-- curriculum__row -->
+                <div class="row__col" id="col-planetary">
+                    <div class="col__item text--color--grey">
+                        Planetary <br> Practice
+                    </div>
+                    <div class="col__item  text--color--grey text--uppercase">
+                        Constituencies
+                    </div>
+                    <div class="col__item  text--color--grey">
+                        Collective <br> Futures
+                    </div>
+                </div>
+                <!-- /curriculum__row -->
+
+                <!-- curriculum__row -->
+                <div class="row__col" id="col-critical">
+                    <div class="col__item  text--color--light-blue">
+                        Critical <br> Cultures of <br> Architecture
+                        <div class="category-box" id="cca">
+                            cca
+                        </div>
+                    </div>
+                    <div class="col__item text--uppercase">
+                        Electives <br> on <br> Space
+                        <div class="category-box" id="es">
+                            es
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /curriculum__row -->
+                <!-- section__shape -->
+                <div class="section__shape-overlay">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1078.62 443.62" preserveAspectRatio="none">
+                        <path
+                            d="M741.09,443.62c-10.53-.81-19.68-3.76-27.23-8.79a50.64,50.64,0,0,1-17.18-19.89,72.51,72.51,0,0,1-7.21-28.86V57.65c0-13.17,3-24.4,9-33.4A50.54,50.54,0,0,1,718.39,7.08,73,73,0,0,1,744.54,0H689.45V155.9H593.8l6.84-18.31H316.44l1.85,4.88,230.17,90.32v73q78.13,16.62,141,67.68v70.14Z"
+                            style="fill:#fff" />
+                        <polygon points="448.06 418.75 448.06 340.68 109.18 379.72 448.06 418.75" style="fill:#fff" />
+                        <path
+                            d="M910.8,206.26c-3.68,11.59-7.94,22.83-12.08,34.13-2.63,7.18-5.78,14-8.25,21.27-9.39,27.62-18.34,55.52-28,83-5.46,15.6-13.16,29.83-17.64,45.88-4.79,17.15-8.76,34.75-12.76,52.34h71.83a71.34,71.34,0,0,0,28.44-7.12,48.16,48.16,0,0,0,26-31.26c-20.11-40.08-33.29-106.91-33.29-182.61a605.24,605.24,0,0,1,5-78.36C924.34,164.79,917.39,185.45,910.8,206.26Z"
+                            style="fill:#fff" />
+                        <polygon points="650.07 0 263.61 0 282.18 48.16 632.58 48.16 650.07 0" style="fill:#fff" />
+                        <path
+                            d="M956.12,42.68c-9,.13-10.45,2.09-10.89,15.42-.14,4.14.46,8.71.41,12.83a233.93,233.93,0,0,1,11-28.26Z"
+                            style="fill:#fff" />
+                        <path d="M1078.62,188.93V0h-73.78C1042.42,3.55,1073.21,84.32,1078.62,188.93Z"
+                            style="fill:#fff" />
+                        <path d="M251,1.45H214.11A72.33,72.33,0,0,1,251,56.35Z" style="fill:#fff" />
+                        <path
+                            d="M890.74,44.54C877,41,867.36,48.31,859,64c-7.36,13.83-16.85,25.49-25.69,37.7-4.71,6.49-9.06,12.08-2.8,21.44,1,1.53-.23,6-.43,9.17-1.89-.62-4.28-.44-5.56-2-4.17-5.13-7.38-7.09-12.86-1.54C795.6,145,779,160.12,762.48,175.61c-2.62,2.46-6.4,3.29-4.69,10,1.11,4.36,1.87,9.43-2.63,11.43-4.17,1.85-5.44-2.69-7.58-6.4-2.84-4.94-11.58-5.57-14.62-1.07-2.45,3.63-3.77,8.74-5.6,13.19-2.46-4.46-4.82-9-7.46-13.28a4.16,4.16,0,0,0-3.44-1.64c-8.38.13-14.67-6.48-21.37-12.14a27.68,27.68,0,0,0-4.61-3.19v60.8A61.69,61.69,0,0,1,692,243c1.6,22.4,8.26,41,16.07,59.52l3.24,8.47c.3,5.15-.11,10.62,1,15.41,6,25.86,11.93,51.81,18.82,77.23,3.55,13.11,7.33,26.1,11.19,39q2.4.15,4.89.15h70.06c2.67-25.19,6-50.21,14.63-73.61,11.25-30.31,21-61.75,30.8-93.07,7.3-23.36,13.82-47.23,20.3-71.07,2-7.47,4.26-16.33-4-20.12-5.82-2.65-5.2-8.33-3.22-13.88,3.71-10.33,7.59-20.59,11.94-30.41,9.35-21.09,19.88-40.94,21.43-67.36C910.29,53.84,905.94,45.25,890.74,44.54Z"
+                            style="fill:#fff" />
+                        <path d="M251,171.61V122.9H219.4A72.34,72.34,0,0,1,251,171.61Z" style="fill:#fff" />
+                        <path d="M251,226.72V194.93a72.31,72.31,0,0,1-29,46.9s29.42.16,68.87.33Z" style="fill:#fff" />
+                        <path d="M223.93,121.56H251V73.26A72.22,72.22,0,0,1,223.93,121.56Z" style="fill:#fff" />
+                        <path d="M144.26,1.45H69.5a72.29,72.29,0,0,1,37.38,63.32A72.29,72.29,0,0,1,144.26,1.45Z"
+                            style="fill:#fff" />
+                        <polygon points="0.53 379.72 0 371.55 0 387.88 0.53 379.72" style="fill:#fff" />
+                        <path d="M79.32,121.56h55.13a72.18,72.18,0,0,1-27.57-56.79A72.2,72.2,0,0,1,79.32,121.56Z"
+                            style="fill:#fff" />
+                        <path d="M139.87,122.9H74.79a72.25,72.25,0,0,1,32.54,60.39A72.25,72.25,0,0,1,139.87,122.9Z"
+                            style="fill:#fff" />
+                        <path
+                            d="M718.81,8a49.65,49.65,0,0,0-19.48,16.83c-.49.75-1,1.51-1.41,2.29C705.51,14.3,717.5,7.73,727.8,4.36A63,63,0,0,0,718.81,8Z"
+                            style="fill:#fff" />
+                        <path d="M1005.8,443.62h72.82V254.8C1073.26,358.51,1043,438.8,1005.8,443.62Z"
+                            style="fill:#fff" />
+                        <polygon points="0 392.05 0 443.62 447.72 443.62 0 392.05" style="fill:#fff" />
+                        <path
+                            d="M959,405.77a49,49,0,0,1-26.21,30.88,72.87,72.87,0,0,1-24.93,7H998.7C984,441.71,970.42,428,959,405.77Z"
+                            style="fill:#fff" />
+                        <path d="M77,242.16l60.57-.14a72.16,72.16,0,0,1-30.19-58.73A72.18,72.18,0,0,1,77,242.16Z"
+                            style="fill:#fff" />
+                        <path
+                            d="M908.64,0c11.15.65,20.78,3.63,28.68,8.9A50.68,50.68,0,0,1,954.5,28.78a65.83,65.83,0,0,1,4,10.14C970.27,15.64,984.38,1.48,999.61,0Z"
+                            style="fill:#fff" />
+                        <path
+                            d="M273.42,335.89l-273.14-8L.5,314.49.28,301.06l248.3-1.77L.28,297.52.5,284.1.28,270.67l248.37-1.77L.28,267.12l.41-24.78,45.79-.11a54.43,54.43,0,0,1-17.16-7.41,53.37,53.37,0,0,1-18.11-21,76.33,76.33,0,0,1-7.6-30.42v-1c0-13.88,3.2-25.72,9.52-35.2a53.37,53.37,0,0,1,21-18.11,75.1,75.1,0,0,1,21.58-6.75c-10.12-1.1-19-4.12-26.36-9a53.37,53.37,0,0,1-18.11-21A76.33,76.33,0,0,1,3.61,62V61c0-13.88,3.2-25.72,9.52-35.2a53.29,53.29,0,0,1,21-18.11A76.45,76.45,0,0,1,64.52.11H251V0H0V367.39Z"
+                            style="fill:#fff" />
+                    </svg>
+                </div>
+                <!-- /section__shape -->
+
+                <!-- col__arrow -->
+                <div class="section__arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 1417 1707">
+                        <path d="M312,206s398.18,137.41,600,60c292-112-42-196-248,484" transform="translate(8.5 6.5)"
+                            style="fill:none;stroke:#000;stroke-width:2px" />
+                        <path d="M1096,942c-284,136-581.44,79.51-680,64-216-34,252-248,380,524"
+                            transform="translate(8.5 6.5)" style="fill:none;stroke:#000;stroke-width:2px" />
+                        <line x1="642.05" y1="694.89" x2="671.76" y2="761.69"
+                            style="fill:none;stroke:#000;stroke-width:2px" />
+                        <line x1="746.35" y1="1500" x2="806.94" y2="1540.9"
+                            style="fill:none;stroke:#000;stroke-width:2px" />
+                        <line x1="671.77" y1="758.65" x2="728.18" y2="718.26"
+                            style="fill:none;stroke:#000;stroke-width:2px" />
+                        <line x1="806.05" y1="1539.03" x2="832.49" y2="1474.88"
+                            style="fill:none;stroke:#000;stroke-width:2px" />
+                        <line x1="128.5" y1="604.5" x2="1364.5" y2="1156.5"
+                            style="fill:none;stroke:#000;stroke-width:2px;stroke-dasharray:11.979000091552734,11.979000091552734" />
+                        <line x1="1364.5" y1="604.5" x2="128.5" y2="1156.5"
+                            style="fill:none;stroke:#000;stroke-width:2px;stroke-dasharray:11.979000091552734,11.979000091552734" />
+                    </svg>
+                </div>
+                <!-- /col__arrow -->
+            </div>
+
+
+
+        </section>
+        <!-- /section-curriculum -->
+
+        <!-- section-courses -->
+        <section class="section  row--padding--bg--black" id="courses">
+            <!-- courses__row -->
+            <div class="courses__row" id="courses-1">
+                <!-- row__item -->
+                <div class="row__item font--alpina width--40">
+                    <h3 class="item__title">
+                        COURSE TYPES
+                    </h3>
+                    <p class="p--alpina">
+                        The curriculum presents architecture as a historically situated and intellectually rigorous
+                        field in which the practice of design naturally intersects with and draws from discourses
+                        outside its traditionally conceived boundaries. Structurally, the curriculum is composed of four
+                        families of courses that build upon this conception:
+                    </p>
+                </div>
+                <!-- /row__item -->
+                <!-- row__item -->
+                <div class="row__item item--width--small"></div>
+                <!-- /row__item -->
+                <!-- row__item -->
+                <div class="row__item width--60 item--scroll font--suisse--300 row__item--after">
+                    <!-- scroll__item -->
+                    <div class="item scroll--item">
+                        <h3 class="item__title">
+                            Electives <br> on Space
+                        </h3>
+                        <p class="font--suisse--700">
+                            draw from across the college to interrogate architecture and the production of space from
+                            the vantage point of non-architectural disciplines, works and modes of inquiry. These
+                            courses have a shared scope in questioning the ways in which we inhabit the world, the
+                            social and historical structures that animate them.
+                        </p>
+                        <div class="category-box">
+                            es
+                        </div>
+                    </div>
+                    <!-- /scroll__item -->
+                    <!-- scroll__item -->
+                    <div class="item scroll--item" id="design-studio-seminars">
+                        <h3 class="item__title">
+                            Design <br> Studio <br> Seminars
+                        </h3>
+                        <p class="font--suisse--700">
+                            are conceived as a hybrid pedagogical model that situates design interventions and technique
+                            acquisition within a broader, transdiscursive series of lectures, readings and discussions
+                            around a given question.</p>
+                        <div class="category-box">
+                            dss
+                        </div>
+                    </div>
+                    <!-- /scroll__item -->
+                    <!-- arrows -->
+                    <div class="item__arrows">
+                        <a class="button button--arrow" href="#open-practices-workshop" href="#design-studio-seminars">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 123.94">
+                                <path
+                                    d="M62,123.94a19.9,19.9,0,0,1-14.14-5.86l-42-42a20,20,0,0,1,0-28.28l42-42a20,20,0,0,1,28-.25l3.92,3.78A20,20,0,0,1,80,38l-1.33,1.32H120a20,20,0,0,1,20,20v5.4a20,20,0,0,1-20,20H78.67L80,86a20,20,0,0,1-.22,28.56l-3.92,3.78A19.93,19.93,0,0,1,62,123.94Z" />
+                                <polygon
+                                    points="61.97 20 20 61.97 61.97 103.94 65.88 100.16 30.26 64.67 120 64.67 120 59.27 30.26 59.27 65.88 23.78 61.97 20" />
+                            </svg>
+                        </a>
+                        <a class="button button--arrow" href="#open-practices-workshop">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 123.98">
+                                <path
+                                    d="M78,0A19.89,19.89,0,0,1,92.14,5.86l42,42a20,20,0,0,1,0,28.28l-42,42a20,20,0,0,1-28,.25l-3.92-3.78a20,20,0,0,1-.61-28.28l.39-.39,1.33-1.32H20a20,20,0,0,1-20-20v-5.4a20,20,0,0,1,20-20H61.33L60,37.94a20,20,0,0,1-.06-28.28l.28-.28L64.14,5.6A20,20,0,0,1,78,0Z" />
+                                <polygon
+                                    points="78.03 103.94 120 61.97 78.03 20 74.12 23.78 109.74 59.27 20 59.27 20 64.67 109.74 64.67 74.12 100.16 78.03 103.94" />
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- arrows -->
+
+
+                </div>
+                <!-- /row__item -->
+
+            </div>
+            <!-- /courses__row -->
+            <!-- courses__row -->
+            <div class="courses__row" id="courses-2">
+                <!-- row__item -->
+                <div class="row__item font--alpina width--40">
+                    <h3 class="item__title">
+                        SEQUENCE
+                    </h3>
+                    <p class="p--alpina">
+                        The curriculum builds a pedagogical sequence that cuts across the four groups of courses aiming,
+                        on the one hand, to encourage common points of inquiry to develop across the curriculum and, on
+                        the other, to give disciplinary and methodological progression over the duration of the program.
+                    </p>
+                </div>
+                <!-- /row__item -->
+                <!-- row__item -->
+                <div class="row__item item--width--small"></div>
+                <!-- /row__item -->
+                <!-- row__item -->
+                <div class="row__item width--60 item--scroll font--suisse--300 row__item--after">
+                    <!-- scroll__item -->
+                    <div class="item scroll--item">
+                        <h3 class="item__title">
+                            Planetary <br> Practice
+                        </h3>
+                        <p class="font--suisse--700">
+                            Recognizing issues like climate change brings to the fore the trans-scalar relations that
+                            directly tie buildings, bodies, cities and ecosystems together. In this context, the
+                            planetary lens shifts our view of architecture from the isolated object to the structurally
+                            situated and historically entangled design practice—an art form that necessarily cuts across
+                            and interrelates multiple scales, disciplines, bodies and actors.
+                        </p>
+                    </div>
+                    <!-- /scroll__item -->
+                    <!-- scroll__item -->
+                    <div class="item scroll--item" id="design-studio-seminars">
+                        <h3 class="item__title">
+                            Constituencies
+                        </h3>
+                        <p class="font--suisse--700">
+                            Building on an inter-scalar understanding of architecture, the second phase in the sequence
+                            grounds architectural design and discourse in the spatial concerns of specific social
+                            groups, movements and struggles. It opens a critical framework by which to develop projects
+                            alongside various groups, organizations or actors that directly address issues such as
+                            spatial justice, housing rights, gentrification, spatial inequalities of gender and race.
+                        </p>
+                    </div>
+                    <!-- /scroll__item -->
+                    <!-- arrows -->
+                    <div class="item__arrows">
+                        <a class="button button--arrow" href="#open-practices-workshop" href="#design-studio-seminars">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 123.94">
+                                <path
+                                    d="M62,123.94a19.9,19.9,0,0,1-14.14-5.86l-42-42a20,20,0,0,1,0-28.28l42-42a20,20,0,0,1,28-.25l3.92,3.78A20,20,0,0,1,80,38l-1.33,1.32H120a20,20,0,0,1,20,20v5.4a20,20,0,0,1-20,20H78.67L80,86a20,20,0,0,1-.22,28.56l-3.92,3.78A19.93,19.93,0,0,1,62,123.94Z" />
+                                <polygon
+                                    points="61.97 20 20 61.97 61.97 103.94 65.88 100.16 30.26 64.67 120 64.67 120 59.27 30.26 59.27 65.88 23.78 61.97 20" />
+                            </svg>
+                        </a>
+                        <a class="button button--arrow" href="#open-practices-workshop">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 123.98">
+                                <path
+                                    d="M78,0A19.89,19.89,0,0,1,92.14,5.86l42,42a20,20,0,0,1,0,28.28l-42,42a20,20,0,0,1-28,.25l-3.92-3.78a20,20,0,0,1-.61-28.28l.39-.39,1.33-1.32H20a20,20,0,0,1-20-20v-5.4a20,20,0,0,1,20-20H61.33L60,37.94a20,20,0,0,1-.06-28.28l.28-.28L64.14,5.6A20,20,0,0,1,78,0Z" />
+                                <polygon
+                                    points="78.03 103.94 120 61.97 78.03 20 74.12 23.78 109.74 59.27 20 59.27 20 64.67 109.74 64.67 74.12 100.16 78.03 103.94" />
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- arrows -->
+
+
+                </div>
+                <!-- /row__item -->
+
+            </div>
+            <!-- /courses__row -->
+            <!-- courses__row -->
+            <div class="courses__row" id="courses-3">
+                <!-- row__item -->
+                <div class="row__item font--alpina width--40">
+                    <h3 class="item__title">
+                        REQUIREMENTS
+                    </h3>
+                    <p class="p--alpina">
+                        The curriculum consists of 9 courses (32 credits total) and two terms of Senior Project. In
+                        Upper College students will be able to select between a focus on Critical Cultures of
+                        Architecture or Design Studio-Seminar. Example:
+                    </p>
+                    <div class="item__table" id="requirements-general-table">
+                        <!-- table-row -->
+                        <div class="table__row">
+                            <div class="row__item requirements-table--width--small">
+                                2x/3x
+                            </div>
+                            <div class="row__item requirements-table--width--small">
+                                <div class="category-box">
+                                    cca
+                                </div>
+                            </div>
+                            <div class="row__item">
+                                courses in Critical Cultures of Architecture
+                            </div>
+                        </div>
+                        <!-- /table-row -->
+                        <!-- table-row -->
+                        <div class="table__row">
+                            <div class="row__item requirements-table--width--small">
+                                3x/2x
+                            </div>
+                            <div class="row__item requirements-table--width--small">
+                                <div class="category-box">
+                                    dss
+                                </div>
+                            </div>
+                            <div class="row__item">
+                                courses in Design Studio-Seminars
+                            </div>
+                        </div>
+                        <!-- /table-row -->
+                        <!-- table-row -->
+                        <div class="table__row">
+                            <div class="row__item requirements-table--width--small">
+                                2x
+                            </div>
+                            <div class="row__item requirements-table--width--small">
+                                <div class="category-box">
+                                    es
+                                </div>
+                            </div>
+                            <div class="row__item">
+                                Electives on Spaces
+                            </div>
+                        </div>
+                        <!-- /table-row -->
+                        <!-- table-row -->
+                        <div class="table__row">
+                            <div class="row__item requirements-table--width--small">
+                                2x
+                            </div>
+                            <div class="row__item requirements-table--width--small">
+                                <div class="category-box">
+                                    opw
+                                </div>
+                            </div>
+                            <div class="row__item">
+                                Open Practices Workshops
+                            </div>
+                        </div>
+                        <!-- /table-row -->
+                        <!-- table-row -->
+                        <div class="table__row">
+                            <div class="row__item requirements-table--width--small">
+                                2x
+                            </div>
+                            <div class="row__item requirements-table--width--small">
+                            </div>
+                            <div class="row__item">
+                                Terms of Senior Project
+                            </div>
+                        </div>
+                        <!-- /table-row -->
+                    </div>
+                </div>
+                <!-- /row__item -->
+                <!-- row__item -->
+                <div class="row__item item--width--small"></div>
+                <!-- /row__item -->
+                <!-- row__item -->
+                <div class="row__item width--60 item--scroll font--suisse--300">
+                    <!-- scroll__item -->
+                    <div class="item scroll--item" id="requirements-tables">
+                        <h3 class="item__title">
+                            Electives <br> on Space
+                        </h3>
+                        <div class="requirements__text">
+                            <p class="font--suisse--700">
+                                14 credits <br> The Architecture Program treats moderation as an opportunity for
+                                in-depth discussion with key faculty at a crucial point in students’ development; it is
+                                a moment of shared reflection and constructive speculation aimed at building toward a
+                                Senior Project. To moderate, students will be required to complete the courses listed
+                                below. In addition to these course requirements, in order to moderate, students must
+                                present the following:
+                            </p>
+                            <ul class="font--suisse--700">
+                                <li>
+                                    the two essays required by the college reflecting on their trajectory and future
+                                    intellectual development within architecture
+                                </li>
+                                <li>
+                                    a portfolio of work to date including at least one featured project.
+                                </li>
+                            </ul>
+                            <p class="font--suisse--700">
+                                *Note: Students may take both ARTH 125 and ARTH 126, but are ONLY REQUIRED TO TAKE ONE
+                                FOR MODERATION.
+                            </p>
+                        </div>
+                        <div class="item__table font--suisse--700">
+                            <!-- table__row -->
+                            <div class="table__row" id="table__header">
+                                <div class="row__item item--arch font--alpina">
+                                </div>
+                                <div class="row__item">
+                                </div>
+                                <div class="row__item item--credits">
+                                    credits
+                                </div>
+                                <div class="row__item item--area">
+                                    area
+                                </div>
+                            </div>
+                            <!-- /table__row -->
+                            <!-- table__row -->
+                            <div class="table__row">
+                                <div class="row__item item--arch font--alpina table--border">
+                                    arch 111.
+                                </div>
+                                <div class="row__item table--border table--description">
+                                    Architecture as Media
+                                </div>
+                                <div class="row__item item--credits table--border">
+                                    4
+                                </div>
+                                <div class="row__item item--area">
+                                    <div class="category-box">
+                                        cca
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /table__row -->
+                            <!-- table__row -->
+                            <div class="table__row">
+                                <div class="row__item item--arch font--alpina table--border">
+                                    arth 125.<span class="symbol">&#10049;</span>
+                                </div>
+                                <div class="row__item table--border table--description">
+                                    Modern Architecture in the Age of Colonialism
+                                </div>
+                                <div class="row__item item--credits table--border">
+                                    4*
+                                </div>
+                                <div class="row__item item--area">
+                                    <div class="category-box">
+                                        cca
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /table__row -->
+                            <!-- table__row -->
+                            <div class="table__row">
+                                <div class="row__item item--arch font--alpina table--border">
+                                    arth 126.<span class="symbol">&#10049;</span>
+                                </div>
+                                <div class="row__item table--border table--description">
+                                    Situating Architecture
+                                </div>
+                                <div class="row__item item--credits table--border">
+                                    4*
+                                </div>
+                                <div class="row__item item--area">
+                                    <div class="category-box">
+                                        cca
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /table__row -->
+
+                            <!-- table__row -->
+                            <div class="table__row">
+                                <div class="row__item item--arch font--alpina table--border">
+                                    —1XX-2XX.
+                                </div>
+                                <div class="row__item table--border table--description">
+                                    Elective course on space
+                                </div>
+                                <div class="row__item item--credits table--border">
+                                    4
+                                </div>
+                                <div class="row__item item--area">
+                                    <div class="category-box">
+                                        es
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /table__row -->
+                            <!-- table__row -->
+                            <div class="table__row">
+                                <div class="row__item item--arch font--alpina table--border">
+                                    ARCH 130.
+                                </div>
+                                <div class="row__item table--border table--description">
+                                    Open Practices Workshop 1
+                                </div>
+                                <div class="row__item item--credits table--border">
+                                    2
+                                </div>
+                                <div class="row__item item--area">
+                                    <div class="category-box">
+                                        opw
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /table__row -->
+
+                        </div>
+                    </div>
+                    <!-- /scroll__item -->
+                    <!-- arrows -->
+                    <div class="item__arrows">
+                        <a class="button button--arrow" href="#open-practices-workshop" href="#design-studio-seminars">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 123.94">
+                                <path
+                                    d="M62,123.94a19.9,19.9,0,0,1-14.14-5.86l-42-42a20,20,0,0,1,0-28.28l42-42a20,20,0,0,1,28-.25l3.92,3.78A20,20,0,0,1,80,38l-1.33,1.32H120a20,20,0,0,1,20,20v5.4a20,20,0,0,1-20,20H78.67L80,86a20,20,0,0,1-.22,28.56l-3.92,3.78A19.93,19.93,0,0,1,62,123.94Z" />
+                                <polygon
+                                    points="61.97 20 20 61.97 61.97 103.94 65.88 100.16 30.26 64.67 120 64.67 120 59.27 30.26 59.27 65.88 23.78 61.97 20" />
+                            </svg>
+                        </a>
+                        <a class="button button--arrow" href="#open-practices-workshop">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 123.98">
+                                <path
+                                    d="M78,0A19.89,19.89,0,0,1,92.14,5.86l42,42a20,20,0,0,1,0,28.28l-42,42a20,20,0,0,1-28,.25l-3.92-3.78a20,20,0,0,1-.61-28.28l.39-.39,1.33-1.32H20a20,20,0,0,1-20-20v-5.4a20,20,0,0,1,20-20H61.33L60,37.94a20,20,0,0,1-.06-28.28l.28-.28L64.14,5.6A20,20,0,0,1,78,0Z" />
+                                <polygon
+                                    points="78.03 103.94 120 61.97 78.03 20 74.12 23.78 109.74 59.27 20 59.27 20 64.67 109.74 64.67 74.12 100.16 78.03 103.94" />
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- arrows -->
+
+
+                </div>
+                <!-- /row__item -->
+
+            </div>
+            <!-- /courses__row -->
+
+
+        </section>
+        <!-- /section-courses -->
+
+        <!-- section-manifest -->
+        <section class="section" id="manifesto">
+            <div class="section__text">
+                <div class="text__row">
+                    <p>
+                        Architecture must become a tool of ungrounding and unlearning if it is to help shape the grounds
+                        on which we learn to live together anew.
+                    </p>
+                </div>
+                <div class="text__row">
+                    <p>
+                        Architecture must become a tool of ungrounding and unlearning if it is to help shape the grounds
+                        on which we learn to live together anew.
+                    </p>
+                </div>
+            </div>
+            <div class="section__shape-overlay">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 265.21" preserveAspectRatio="none"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M271.13,221.14c-29.86-3.69-60.66-6.39-92-8.41-28.44-1.83-57.1-3.23-86.05-4-5.87-.15-11.74-.45-17.49-.85-23.19-1.6-39.57-7.63-41.42-15.19a12.5,12.5,0,0,1-.25-3.28c.08-4,3.83-7.68,11.82-10.86,1.22-.48,2.37-1,3.46-1.5.2-.09,0-.29-.06-.46-1.89-.67-4.46-.4-6.73-.41q-21.21,0-42.4,0v89H440.36c-15.91-9.75-38-18.18-65.7-25.41C343.53,231.69,308.51,225.75,271.13,221.14Z" />
+                    <path
+                        d="M281.94,10.34c133.87,0,246.82,55.8,282.2,132.11,10.15-21.88,26.66-42.08,48.23-59.75.53.31,1,.63,1.52.92a6,6,0,0,0,3.72-.4q2.52-1.2,4.89-2.43c7.73-4,15.51-8,23.13-12a32.18,32.18,0,0,1,11.15-3.06c6.55-.81,12.81-1.79,19.75-2.35,5.72-.46,11-1.54,16.33-2.41,3.88-.63,8-1.21,11.31-2.07s5.78-2.06,8.67-3.09a93.58,93.58,0,0,1,11-3.27,39.9,39.9,0,0,0,3.87-1c7.56-2.56,15.06-5.15,22.6-7.73,1.6-.54,3.32-1.05,5-1.59,11.92-3.9,24.07-7.73,35.69-11.72,10.73-3.69,22.33-7.09,33.33-10.68a87.06,87.06,0,0,1,19.85-3.55,59.22,59.22,0,0,0,6.42-.84c8.36-1.62,17.28-2.86,26.21-4.09,62.49,4,119.17,20.22,163.79,44.74a24.8,24.8,0,0,0-2,3.17c-.86,1.68-1.44,3.37-2.18,5.06-.84,1.91,0,3.65,5.46,4.8,5.68,1.18,8.77,2.87,10.37,4.91,1.85,2.37,4.56,4.66,5.61,7.12.94,2.2,3.28,4.35,5,6.52.66.83,1.7,1.64,2,2.48.45,1.3,1.89,2.43,3.62,3.61a45.87,45.87,0,0,1,6.12,5.4,1.54,1.54,0,0,1,.35,1.27c.14,4.27.1,8.54.41,12.81.17,2.28-1.87,4.43-3.07,6.63a77.79,77.79,0,0,1-5,7.83c-1.41,2-3.18,3.92-4.75,5.88-.42.51-1,1-1,1.56-.2,4.08-4.42,8-4.65,12.06a5,5,0,0,1-1.29,2.53c-2.83,3.6-5.78,7.21-8.72,10.85a1.17,1.17,0,0,0,.49.18c7.33.54,10.66,2.22,13.4,4.29a31.1,31.1,0,0,1,9,10.12c2.08,3.89,5.16,7.72,7.75,11.58a6.39,6.39,0,0,1,1.27,2.52,3.62,3.62,0,0,0,1.35,2.09V0H0V141.89C35.68,65.87,148.39,10.34,281.94,10.34Z" />
+                    <path d="M552.12,265.21h24a144.58,144.58,0,0,1-12-21A146.6,146.6,0,0,1,552.12,265.21Z" />
+                </svg>
+
+            </div>
+        </section>
+        <!-- /section-manifest -->
+
+
+
+
+
+
+        </section>
+        <!-- /section-courses-introduction -->
+
+
+
+
+
+
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
